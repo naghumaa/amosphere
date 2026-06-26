@@ -145,16 +145,15 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 # 📷 Screenshots
 
+
 ## Login
 
-> Add Login Screenshot
+![Login](screenshots/login.png)---
 
----
 
 ## Dashboard
 
-> Add Dashboard Screenshot
-
+![Dashboard](screenshots/dashboard.png)
 ---
 
 ## Work Orders
@@ -165,7 +164,8 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 ## Inventory
 
-> Add Inventory Screenshot
+
+![Inventory](screenshots/inventory.png)
 
 ---
 
