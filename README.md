@@ -17,6 +17,22 @@ An intelligent enterprise-grade platform that transforms aircraft maintenance op
 
 ---
 
+## 📑 Table of Contents
+
+* [Overview](#-overview)
+* [Key Features](#-key-features)
+* [Artificial Intelligence](#-artificial-intelligence)
+* [System Modules](#-system-modules)
+* [System Architecture](#-system-architecture)
+* [Technology Stack](#-technology-stack)
+* [Screenshots](#-screenshots)
+* [Project Objectives](#-project-objectives)
+* [Documentation](#-documentation)
+* [Future Enhancements](#-future-enhancements)
+* [Team](#-team)
+* [License](#-license)
+
+
 # 📖 Overview
 
 AMOSPHERE is an AI-powered Maintenance, Repair, and Overhaul (MRO) platform developed as a Computer Engineering graduation project. The platform provides airlines and aviation maintenance organizations with a unified digital solution for managing maintenance operations, work orders, inventory, scheduling, reporting, and predictive maintenance.
@@ -80,6 +96,10 @@ The platform predicts future spare-parts demand by combining scheduled maintenan
 # 🏛️ System Architecture
 
 The platform follows a layered architecture that separates presentation, business logic, data management, and AI services.
+
+## System Architecture Diagram
+
+![Architecture](diagrams/architecture.png)
 
 ### Presentation Layer
 
@@ -148,7 +168,9 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 ## Login
 
-![Login](screenshots/login.png)---
+![Login](screenshots/login.png)
+
+---
 
 
 ## Dashboard
@@ -181,6 +203,24 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 ---
 
+# 📐 UML Diagrams
+
+## Use Case Diagram
+
+![Use Case](diagrams/usecase.png)
+
+---
+
+## Class Diagram
+
+![Class Diagram](diagrams/class.png)
+
+---
+
+## Entity Relationship Diagram
+
+![ERD](diagrams/erd.png)
+
 # 🎯 Project Objectives
 
 - Improve operational safety
@@ -195,15 +235,16 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 # 📚 Documentation
 
-The complete graduation project documentation includes:
+The complete project documentation is available in the `docs` directory and includes:
 
-- Software Engineering Documentation
-- System Architecture
-- UML Diagrams
-- Database Design
-- Artificial Intelligence Design
-- Testing & Validation
-- Implementation Details
+* Graduation Book
+* Software Requirements Specification (SRS)
+* Software Design Document (SDD)
+* UML Diagrams
+* Database Design
+* AI Module Design
+* Testing & Validation
+* User Manual
 
 ---
 
@@ -219,9 +260,10 @@ The complete graduation project documentation includes:
 
 ---
 
+
 # 👥 Team
 
-AMOSPHERE was developed as a multidisciplinary Computer Engineering graduation project following Agile software development practices.
+AMOSPHERE was developed by a multidisciplinary Computer Engineering team as a graduation project. The project followed Agile software development practices, emphasizing collaboration, iterative development, and continuous improvement throughout the software lifecycle.
 
 ---
 
