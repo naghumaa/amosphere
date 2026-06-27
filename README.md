@@ -17,21 +17,22 @@ An intelligent enterprise-grade platform that transforms aircraft maintenance op
 
 ---
 
-## 📑 Table of Contents
+# 📑 Table of Contents
 
-* [Overview](#-overview)
-* [Key Features](#-key-features)
-* [Artificial Intelligence](#-artificial-intelligence)
-* [System Modules](#-system-modules)
-* [System Architecture](#-system-architecture)
-* [Technology Stack](#-technology-stack)
-* [Screenshots](#-screenshots)
-* [Project Objectives](#-project-objectives)
-* [Documentation](#-documentation)
-* [Future Enhancements](#-future-enhancements)
-* [Team](#-team)
-* [License](#-license)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Artificial Intelligence](#-artificial-intelligence)
+- [System Modules](#-system-modules)
+- [System Architecture](#-system-architecture)
+- [Technology Stack](#-technology-stack)
+- [Screenshots](#-screenshots)
+- [Project Objectives](#-project-objectives)
+- [Documentation](#-documentation)
+- [Future Enhancements](#-future-enhancements)
+- [Team](#-team)
+- [License](#-license)
 
+---
 
 # 📖 Overview
 
@@ -60,11 +61,11 @@ Instead of relying on fragmented systems and manual workflows, AMOSPHERE central
 
 AMOSPHERE integrates Artificial Intelligence to support maintenance planning and operational decision-making.
 
-### Finding Risk Prediction
+## Finding Risk Prediction
 
 A machine learning model analyzes maintenance findings and operational data to estimate the probability of future maintenance issues before they become critical.
 
-### Spare Parts Demand Forecasting
+## Spare Parts Demand Forecasting
 
 The platform predicts future spare-parts demand by combining scheduled maintenance information with historical maintenance events, helping maintenance teams optimize inventory levels and reduce unnecessary stock costs.
 
@@ -97,10 +98,6 @@ The platform predicts future spare-parts demand by combining scheduled maintenan
 
 The platform follows a layered architecture that separates presentation, business logic, data management, and AI services.
 
-## System Architecture Diagram
-
-![Architecture](diagrams/architecture.png)
-
 ### Presentation Layer
 
 - React Web Application
@@ -128,43 +125,17 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 # 💻 Technology Stack
 
-## Frontend
-
-- React
-- HTML5
-- CSS3
-- JavaScript
-
-## Backend
-
-- Spring Boot
-- Java
-- REST API
-
-## Database
-
-- MySQL
-
-## Artificial Intelligence
-
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-
-## Tools
-
-- Git
-- GitHub
-- Postman
-- Visual Studio Code
-- IntelliJ IDEA
-- Figma
+| Layer | Technologies |
+|-------|--------------|
+| Frontend | React, HTML5, CSS3, JavaScript |
+| Backend | Spring Boot, Java, REST APIs |
+| Database | MySQL |
+| Artificial Intelligence | Python, Scikit-learn, Pandas, NumPy |
+| Tools | Git, GitHub, Postman, IntelliJ IDEA, VS Code, Figma |
 
 ---
 
 # 📷 Screenshots
-
 
 ## Login
 
@@ -172,20 +143,19 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 ---
 
-
 ## Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
+
 ---
 
 ## Work Orders
 
-> Add Work Orders Screenshot
+![Work Orders](screenshots/workorders.png)
 
 ---
 
 ## Inventory
-
 
 ![Inventory](screenshots/inventory.png)
 
@@ -193,33 +163,15 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 ## Reports
 
-> Add Reports Screenshot
+![Reports](screenshots/reports.png)
 
 ---
 
 ## AI Prediction
 
-> Add AI Prediction Screenshot
+![AI Prediction](screenshots/ai-prediction.png)
 
 ---
-
-# 📐 UML Diagrams
-
-## Use Case Diagram
-
-![Use Case](diagrams/usecase.png)
-
----
-
-## Class Diagram
-
-![Class Diagram](diagrams/class.png)
-
----
-
-## Entity Relationship Diagram
-
-![ERD](diagrams/erd.png)
 
 # 🎯 Project Objectives
 
@@ -235,16 +187,16 @@ This architecture ensures scalability, maintainability, modularity, and seamless
 
 # 📚 Documentation
 
-The complete project documentation is available in the `docs` directory and includes:
+The project documentation includes:
 
-* Graduation Book
-* Software Requirements Specification (SRS)
-* Software Design Document (SDD)
-* UML Diagrams
-* Database Design
-* AI Module Design
-* Testing & Validation
-* User Manual
+- Software Requirements Specification (SRS)
+- Software Design Documentation
+- UML Diagrams
+- Database Design
+- Artificial Intelligence Design
+- Testing & Validation
+- System Architecture
+- Graduation Project Documentation
 
 ---
 
@@ -259,7 +211,6 @@ The complete project documentation is available in the `docs` directory and incl
 - Automated Maintenance Recommendations
 
 ---
-
 
 # 👥 Team
 
